@@ -1,25 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio de Hermine</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
+
 <body>
-    <header class=" flex space wHeader p20">
-        <img  class=imgheader src="asset/logo Hb.jpg" alt="logo du site">
-        <nav >
-            <ul class="atext b">
-                <li><a href="">Mes projets</a></li>
-                <li><a href="">Mes services</a></li>
-                <li><a href="">Mes compétances</a></li>
-                <li><a href=""> <img src="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#1f1f1f"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"/></svg>"<alt="icôn de mail"></a></li>
-                <li><a href=""><img class="imglink" src="asset/linkedin-logo_578229-227.avif" alt="logo de linkedin"></a></li>
-                <li><a href=""><img class="imglink" src="asset/GitHub-Logo.png" alt="logo de Github"></a></li>
+    <header class=" wHeader p20 flex b space alignitem ">
+        <img class=imgheader src="asset/logo Hb.jpg" alt="logo du site">
+        <!-- première nav -->
+        <nav class="nav1 ">
+            <ul class="atext flex space">
+                <li><a href="#Mes projets">Mes projets</a></li>
+                <li><a href="#Mes services">Mes services</a></li>
+                <li><a href=" #Mes compétances">Mes compétances</a></li>
+        </nav>
+        <!-- deuxième nav -->
+        <nav class="nav2 atext a space ">
+            <li><a class="atext a" href="">
+                    <span class="material-icons material-symbols-outlined">
+                        mail
+                    </span>
+                </a></li>
+            <li><a class="atexta" href=""><img class="imglink" src="asset/linkedin-logo_578229-227.avif" alt="logo de linkedin"></a>
+            </li>
+            <li><a class="atexta" href=""><img class="imglink" src="asset/GitHub-Logo.png" alt="logo de Github"></a></li>
             </ul>
         </nav>
     </header>
-    
+    <main>
+        <!-- Section héro -->
+        <section class="margintop">
+            <p class="textcenter">Hermine BEDROSSIAN</p>
+            <h1 class="textcenter margin20">Developpeuse front-end</h1>
+        </section>
+        <!-- section deux -->
+        <section class="flex space ">
+            <!-- div un -->
+            <div>
+                <img class="imgprojet " src="asset/moovizy.jpg" alt="Image de carte">
+                <a class="psection psec" href=""><p>Moovizy</p></a>
+                <p></p>
+            </div>
+            <!-- div deux -->
+            <div>
+                <img class="imgprojet " src="asset/ruche.jpg" alt="Image d'abeille">
+                <a class="psection psec" href=""><p>La ruche</p></a>
+                <p></p>
+            </div>
+            <!-- div trois -->
+            <div><a href="">
+                <img class="imgprojet " src="asset/interno.jpg" alt="Image de disgne intérieur">
+                <a class="psection psec" href="">interno</a>
+                <p></p>
+            </div>
+
+        </section>
+    </main>
 </body>
+
 </html>

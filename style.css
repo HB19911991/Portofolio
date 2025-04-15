@@ -10,6 +10,9 @@
 .atext{
     font-style:normal;
     list-style: none ;
+    
+}
+.atext a{
     text-decoration: none;
     color: black;
 }
@@ -20,22 +23,61 @@
 .space{
     justify-content: space-between;
 }
+.alignitem{
+    align-items: center;
+}
 .p20{
     padding-bottom: 20px;
 }
-.m100{
-    margin-left: 50px;
-}
+
 
 /*Header*/
 .imgheader{
-    width: 5%;
+    width: 50px;
+    height: 50px;
 }
 .imglink{
-    width: 15px;
-    height: 15PX;
+    width: 25px;
+    height: 25PX;
 }
 .wHeader{
-    width: 95%;
+    width: 100%;
 }
 .b{background-color: brown;}
+.nav1{
+    width: 30%;
+}
+.nav2{
+    width: 10%;
+}
+
+/*Héro*/
+.margintop{
+    margin-top: 50px;
+}
+.margin20{
+    margin-top: 20px;
+}
+.textcenter{
+    text-align: center;
+}
+
+/*Section 2*/
+.imgprojet{
+    width: 300px;
+    height: 350px;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.psection{
+    background-color: aqua;
+    text-align: center;
+    
+}
+
+.psec{
+    position:absolute;
+    position: relative;
+    top:(-50)
+}
