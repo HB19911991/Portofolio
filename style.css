@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+.atext{
+    font-style:normal;
+    list-style: none ;
+    text-decoration: none;
+    color: black;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.space{
+    justify-content: space-between;
+}
+.p20{
+    padding-bottom: 20px;
+}
+.m100{
+    margin-left: 50px;
+}
+
+/*Header*/
+.imgheader{
+    width: 5%;
+}
+.imglink{
+    width: 15px;
+    height: 15PX;
+}
+.wHeader{
+    width: 95%;
+}
+.b{background-color: brown;}
