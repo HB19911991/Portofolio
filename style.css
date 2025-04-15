@@ -63,21 +63,37 @@
 }
 
 /*Section 2*/
+.divw{
+    width: 200px;
+    height: 200px;
+   text-align: center;
+}
 .imgprojet{
-    width: 300px;
-    height: 350px;
-    margin-top: 40px;
-    margin-left: 50px;
-    margin-right: 50px;
+    width: 100%; 
+   
 }
 .psection{
     background-color: aqua;
+ 
     text-align: center;
+}
+/**/
+/**/
+/*section 4 compétances*/
+.ba{
+    background-color: coral;
     
 }
+.imgcom{
+    width: 100px;
+    height: 100px;
 
-.psec{
-    position:absolute;
-    position: relative;
-    top:(-50)
+}
+
+/*footer*/
+.reseau a{
+    display: block;
+}
+.pad{
+    padding-top: 30px;
 }
