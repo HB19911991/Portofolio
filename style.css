@@ -1,99 +1,221 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
 }
-.container{
+
+.container {
     max-width: 1000px;
     margin: auto;
 }
-.atext{
-    font-style:normal;
-    list-style: none ;
-    
+
+.atext {
+    font-style: normal;
+    list-style: none;
+
 }
-.atext a{
+
+.atext a {
     text-decoration: none;
     color: black;
 }
-.flex{
+
+.flex {
     display: flex;
     flex-wrap: wrap;
 }
-.space{
+
+.space {
     justify-content: space-between;
 }
-.alignitem{
+
+.alignitem {
     align-items: center;
 }
-.p20{
+body{
+    background-color: #1f1f1f;
+}
+.p20 {
     padding-bottom: 20px;
 }
 
+.margintop20 {
+    margin-top: 20px;
+}
 
+.w28 {
+    width: 28%;
+}
+
+.bleu {
+    color: #00DBFD;
+}
 /*Header*/
-.imgheader{
-    width: 50px;
-    height: 50px;
-}
-.imglink{
-    width: 25px;
-    height: 25PX;
-}
-.wHeader{
+.imghero {
     width: 100%;
+    height: 400px;
 }
-.b{background-color: brown;}
-.nav1{
+
+.imgheader {
+    width: 70px;
+    height: 70px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.imglink {
+    width: 35px;
+    height: 35PX;
+
+}
+
+.wHeader {
+    width: 100%;
+    height: 75px;
+}
+
+.b {
+    background-color: rgba(41, 89, 194, 0.516);
+}
+
+.nav1 {
     width: 30%;
 }
-.nav2{
+
+.nav2 {
     width: 10%;
+    padding-right: 15px;
+}
+
+.white a{
+    color: white;
+}
+h2{
+    color: white;
 }
 
 /*Héro*/
-.margintop{
-    margin-top: 50px;
+.texthero {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: medium;
 }
-.margin20{
-    margin-top: 20px;
+
+.hhero {
+    font-size: 60px;
+    padding-top: 10px;
 }
-.textcenter{
+
+.phero {
+    font-size: 40px;
+}
+
+.marginbot50 {
+    margin-bottom: 50px;
+}
+
+.textcenter {
     text-align: center;
 }
 
-/*Section 2*/
-.divw{
-    width: 200px;
-    height: 200px;
-   text-align: center;
+/*Section 2 Mes projets*/
+
+.pwhite{
+    color: white;
 }
-.imgprojet{
-    width: 100%; 
-   
+.carteProjet {
+    text-decoration: none;
+    color: white;
 }
-.psection{
-    background-color: aqua;
- 
+.titreprojet{
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
 }
-/**/
-/**/
-/*section 4 compétances*/
-.ba{
-    background-color: coral;
-    
+.imageProjet {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+    }
+.detailprojet{
+    background-color: #28282842;
+    padding: 10px;
+    border-radius:20px ;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    transform: translate(-100%,-100%);
+    position: relative;
+    }
+.detailprojet>p{
+    padding-bottom: 10px;
 }
-.imgcom{
+
+.divw {
+    width: 30%;
+    text-align: center;
+    }
+
+.imgprojet {
+    width: 100%;
+    height: 300px;
+    border-radius: 25px;
+}
+
+.psection {
+    text-align: center;
+    width: 100%;
+    background-color: rgba(240, 248, 255, 0.473);
+    text-decoration: none;
+}
+.fix{
+    position: absolute;
+    position: relative;
+    top: -12%;
+}
+.colorblue
+{
+    color: rgb(7, 7, 122);
+    text-decoration: none;
+}
+
+/*section 3 Services*/
+.fix2{
+    position: absolute;
+    position: relative;
+    top: -55%;
+}
+.fix3{
+    position: absolute;
+    position: relative;
+    top: -50%;
+}
+
+/*section 4  MES compétances*/
+
+.imgcom {
     width: 100px;
     height: 100px;
-
 }
 
 /*footer*/
-.reseau a{
+.reseau a {
     display: block;
 }
-.pad{
+
+.margintop12
+{
+    margin-top: 12px;
+}
+.pad {
     padding-top: 30px;
 }
+.gap{
+    gap:20px;
+}
+
