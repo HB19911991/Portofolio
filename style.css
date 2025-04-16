@@ -12,12 +12,6 @@
 .atext {
     font-style: normal;
     list-style: none;
-
-}
-
-.atext a {
-    text-decoration: none;
-    color: black;
 }
 
 .flex {
@@ -45,11 +39,9 @@ body{
 
 .w28 {
     width: 28%;
+    height: 350px;
 }
 
-.bleu {
-    color: #00DBFD;
-}
 /*Header*/
 .imghero {
     width: 100%;
@@ -68,7 +60,10 @@ body{
     height: 35PX;
 
 }
-
+header{
+    position: fixed;
+    top: 0px;
+}
 .wHeader {
     width: 100%;
     height: 75px;
@@ -90,7 +85,16 @@ body{
 .white a{
     color: white;
 }
+.atext a {
+    text-decoration: none;
+    color: black;
+}
 h2{
+    color: white;
+}
+
+.pservice{
+    text-align: center;
     color: white;
 }
 
@@ -127,6 +131,7 @@ h2{
 .pwhite{
     color: white;
 }
+
 .carteProjet {
     text-decoration: none;
     color: white;
@@ -141,6 +146,7 @@ h2{
     height: 300px;
     object-fit: cover;
     border-radius: 20px;
+    box-shadow: 0PX 12px 12px #00dbfd8b ;
     }
 .detailprojet{
     background-color: #28282842;
@@ -185,15 +191,22 @@ h2{
 }
 
 /*section 3 Services*/
+.shadow{
+    box-shadow: 0px 12px 25px #00DBFD
+}
 .fix2{
     position: absolute;
     position: relative;
     top: -55%;
+    padding-left: 10px;
+    color: white;
 }
 .fix3{
     position: absolute;
     position: relative;
     top: -50%;
+    padding-left: 10px;
+    color: white;
 }
 
 /*section 4  MES compétances*/
@@ -202,7 +215,10 @@ h2{
     width: 100px;
     height: 100px;
 }
-
+.justify{
+    justify-content: center;
+    gap:64px;
+}
 /*footer*/
 .reseau a {
     display: block;
@@ -210,7 +226,7 @@ h2{
 
 .margintop12
 {
-    margin-top: 12px;
+    margin-top: 30Spx;
 }
 .pad {
     padding-top: 30px;
@@ -218,4 +234,10 @@ h2{
 .gap{
     gap:20px;
 }
-
+.margintop5{
+    margin-top: 5px;
+}
+footer a{
+    color:white;
+    padding: 0px 64px;
+}
